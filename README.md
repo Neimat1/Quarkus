@@ -31,4 +31,5 @@ Kubernetes runs images and manages containers using Docker.
 
 ## Good refernces
   - https://github.com/PacktPublishing/Hands-On-Cloud-Native-Applications-with-Java-and-Quarkus
+  - https://static.packt-cdn.com/downloads/9781838821470_ColorImages.pdf
   
