@@ -28,7 +28,15 @@ Kubernetes runs images and manages containers using Docker.
   + Speed up the process of testing, releasing and building
   + Provides fastest and least costly horizonetal scalability
   + Manage stateless and stateful applications
-
+  
+  
+### MicroProfile
+  At first glance, it appears that Java and microservices don't really match. Many major vendors, including IBM, Red Hat, and Payara, have already provided a lightweight and extensible runtime to power microservices and cloud deployments. Their individual efforts were naturally followed by an open collaboration within the **MicroProfile.io** initiative.
+  
+  ![image](https://user-images.githubusercontent.com/63751555/224563950-9dbcb3c2-3275-4ba8-866c-7aa7113ec837.png)
+  
+It's unsufficient to develop complex enterprise applications because some functionslities doesn't exist on it so we need another framework that leverages the MicroProfile API with extensible functionalities and can be orchestrated by Kubernetes.
+  
 ## Good refernces
   - https://github.com/PacktPublishing/Hands-On-Cloud-Native-Applications-with-Java-and-Quarkus
   - https://static.packt-cdn.com/downloads/9781838821470_ColorImages.pdf
