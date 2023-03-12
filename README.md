@@ -36,6 +36,10 @@ Kubernetes runs images and manages containers using Docker.
   ![image](https://user-images.githubusercontent.com/63751555/224563950-9dbcb3c2-3275-4ba8-866c-7aa7113ec837.png)
   
 It's unsufficient to develop complex enterprise applications because some functionslities doesn't exist on it so we need another framework that leverages the MicroProfile API with extensible functionalities and can be orchestrated by Kubernetes.
+
+
+### Quarqus
+  Quarkus extensions include the full Eclipse MicroProfile Stack, a persistence API (JPA), a transaction manager (Narayana), a reactive framework (Vert.x), an asynchronous event-driven network application framework (Netty), and much more.
   
 ## Good refernces
   - https://github.com/PacktPublishing/Hands-On-Cloud-Native-Applications-with-Java-and-Quarkus
