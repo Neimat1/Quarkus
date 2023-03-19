@@ -42,6 +42,26 @@ It's unsufficient to develop complex enterprise applications because some functi
   Quarkus extensions include the full Eclipse MicroProfile Stack, a persistence API (JPA), a transaction manager (Narayana), a reactive framework (Vert.x), an asynchronous event-driven network application framework (Netty), and much more.
 ### Quarkus Architecture
   ![image](https://user-images.githubusercontent.com/63751555/225607192-6ab7a6f0-a71c-4f8d-b6a4-a79bda058ad3.png)
+  
+### GraalVM
+  Compile java code into native executibles.
+  
+  ![image](https://user-images.githubusercontent.com/63751555/226188210-d68bcbb6-bc6e-4a4b-b30e-b1adf8a36e72.png)
+  
+### Installation steps GraalVM:
+  - Download GraalVM from https://github.com/graalvm/graalvm-ce-builds/releases
+  - Make new directory and extrat the downloaded graal in it
+  - Open .bashrc file and add thus instructions
+      ```
+      export JAVA_HOME=/pathOfExtractedFolder
+      export GRAALVM_HOME=/pathOfExtractedFolder
+      export PATH=$JAVA_HOME/bin:$GRAALVM_HOME/bin:$PATH
+      ```
+  - Open Terminal and write 
+      ```
+      source .bashrc
+      ```
+
 
   
 ## Good refernces
